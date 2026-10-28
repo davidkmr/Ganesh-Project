@@ -4,7 +4,7 @@ import user from '../testdata/userData.json'
 test('SauceDemo', async ({ loginPage}) => {
 
   await loginPage.login(
-    user.user6.name,
+    user.user8.name,
     user.password
   );
 
